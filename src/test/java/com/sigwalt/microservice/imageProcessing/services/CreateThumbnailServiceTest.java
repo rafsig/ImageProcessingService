@@ -1,4 +1,4 @@
-package com.sigwalt.microservice.imageProcessing;
+package com.sigwalt.microservice.imageProcessing.services;
 
 import java.awt.Image;
 import java.awt.image.BufferedImage;

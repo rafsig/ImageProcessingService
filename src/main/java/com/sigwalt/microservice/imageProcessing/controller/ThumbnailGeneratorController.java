@@ -20,6 +20,7 @@ public class ThumbnailGeneratorController {
 	@Autowired
 	CreateThumbnailService createThumbnailService;
 	
+
 	@PostMapping
 	public ResponseEntity<ThumbnailDto> generateThumbnail(@RequestBody ThumbnailForm imageForm) throws IOException{
 		return ResponseEntity.ok(createThumbnailService.execute(imageForm));
